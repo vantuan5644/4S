@@ -1,0 +1,10 @@
+imutils
+opencv-python
+numpy
+scikit-image
+scipy
+mxnet-cu102
+easydict
+pandas
+scikit-learn
+gdown

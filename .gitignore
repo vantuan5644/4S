@@ -1,0 +1,28 @@
+/datasets/
+
+*__pycache__
+
+# IDE
+/*.idea
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/*
+*.wpr
+*.wpu
+pax_global_header
+.project
+.pydevproject
+.settings/*
+*.wpr
+*.wpu
+
+# exception to the rule
+.gitkeep
+
+# Byte-compiled / optimized / DLL files / log file
+__pycache__/
+*.py[cod]
+*$py.class
+.pyc
+*.bash
+*.log
