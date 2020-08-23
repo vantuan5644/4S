@@ -10,7 +10,7 @@ import mxnet as mx
 
 parser = argparse.ArgumentParser(description='face model slim')
 # general
-parser.add_argument('--model', default='../models/model-r34-amf/model,60', help='path to load model.')
+parser.add_argument('--model', default='../networks/model-r34-amf/model,60', help='path to load model.')
 args = parser.parse_args()
 
 _vec = args.model.split(',')

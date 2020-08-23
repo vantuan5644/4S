@@ -1,4 +1,4 @@
-/datasets/
+.ipyp_checkpoints/
 
 *__pycache__
 
@@ -26,3 +26,4 @@ __pycache__/
 .pyc
 *.bash
 *.log
+/.ipynb_checkpoints/

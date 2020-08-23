@@ -8,3 +8,4 @@ easydict
 pandas
 scikit-learn
 gdown
+jupyterlab

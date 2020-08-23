@@ -8,15 +8,15 @@ import sys
 import mxnet as mx
 import numpy as np
 import sklearn
-import tensorflow as tf
+# import tensorflow as tf
 from easydict import EasyDict as edict
 
 # import facenet
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'align'))
-import detect_face
-
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'common'))
-import face_preprocess
+# sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'align'))
+# import detect_face
+#
+# sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'common'))
+# import face_preprocess
 
 
 def ch_dev(arg_params, aux_params, ctx):
@@ -30,7 +30,7 @@ def ch_dev(arg_params, aux_params, ctx):
 
 
 def do_flip(data):
-    for idx in xrange(data.shape[0]):
+    for idx in range(data.shape[0]):
         data[idx, :, :] = np.fliplr(data[idx, :, :])
 
 

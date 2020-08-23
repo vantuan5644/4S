@@ -8,7 +8,7 @@ import argparse
 import numpy as np
 import mxnet as mx
 
-parser = argparse.ArgumentParser(description='merge age and gender models')
+parser = argparse.ArgumentParser(description='merge age and gender networks')
 # general
 parser.add_argument('--age-model', default='', help='path to load age model.')
 parser.add_argument('--gender-model', default='', help='path to load gender model.')
