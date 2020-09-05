@@ -1,4 +1,4 @@
-.ipyp_checkpoints/
+.ipynb_checkpoints
 
 *__pycache__
 
@@ -13,8 +13,6 @@ pax_global_header
 .project
 .pydevproject
 .settings/*
-*.wpr
-*.wpu
 
 # exception to the rule
 .gitkeep
@@ -26,4 +24,3 @@ __pycache__/
 .pyc
 *.bash
 *.log
-/.ipynb_checkpoints/
